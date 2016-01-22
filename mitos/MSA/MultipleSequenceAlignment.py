@@ -1,5 +1,3 @@
-from Bio.SeqRecord import SeqRecord
-from Bio.Align import MultipleSeqAlignment
 from Annotations import annotate_modification
 
 
@@ -16,7 +14,8 @@ def coverage(sequence, reference):
 
 
 def filtersequences(msa, condition, annotate):
-    return MultipleSeqAlignment(filter(condition, msa))
+    msa.__dict__['_records'] = filter(condition, msa.__dict__['_records'])
+    return msa
 
 
 def nsequences(msa):
