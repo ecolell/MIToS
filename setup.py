@@ -54,7 +54,7 @@ setup(
     version=version_git,
     author=u'Eloy Adonis Colell',
     author_email='mistic.leloir@gmail.com',
-    packages=['mitos'],
+    packages=['mitos', 'mitos.MSA'],
     url='https://github.com/ecolell/MIToS',
     license='MIT',
     description=('A python library that join a set of tools to make '
