@@ -1,0 +1,74 @@
+LOCUS       DQ659148                 646 bp    DNA     linear   PRI 05-JUL-2006
+DEFINITION  Homo sapiens hemoglobin (HBB) gene, promoter region, exons 1, 2 and
+            partial cds.
+ACCESSION   DQ659148
+VERSION     DQ659148.1  GI:109893890
+KEYWORDS    .
+SOURCE      Homo sapiens (human)
+  ORGANISM  Homo sapiens
+            Eukaryota; Metazoa; Chordata; Craniata; Vertebrata; Euteleostomi;
+            Mammalia; Eutheria; Euarchontoglires; Primates; Haplorrhini;
+            Catarrhini; Hominidae; Homo.
+REFERENCE   1  (bases 1 to 646)
+  AUTHORS   Kutlar,F., Davis,D.H., Kollipara,P., Nechtman,J. and Kutlar,A.
+  TITLE     Homozygous-29 A->G mutation detected at the promoter region of beta
+            globin gene on a black patient with beta-thalassemia major
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 646)
+  AUTHORS   Kutlar,F., Davis,D.H., Kollipara,P., Nechtman,J. and Kutlar,A.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (26-MAY-2006) Medicine, Sickle Cell Center, Medical
+            College of Georgia, Laney Walker Blvd., Augusta, GA 30912, USA
+FEATURES             Location/Qualifiers
+     source          1..646
+                     /organism="Homo sapiens"
+                     /mol_type="genomic DNA"
+                     /db_xref="taxon:9606"
+                     /chromosome="11"
+                     /map="11p15.5"
+                     /sex="male"
+                     /tissue_type="whole blood"
+     gene            <1..>646
+                     /gene="HBB"
+     regulatory      <1..34
+                     /regulatory_class="promoter"
+                     /gene="HBB"
+     variation       6
+                     /gene="HBB"
+                     /note="homozygous mutation"
+                     /replace="a"
+     mRNA            join(35..176,307..>529)
+                     /gene="HBB"
+                     /product="hemoglobin"
+     exon            35..176
+                     /gene="HBB"
+                     /number=1
+     5'UTR           35..84
+                     /gene="HBB"
+     CDS             join(85..176,307..>529)
+                     /gene="HBB"
+                     /note="beta-globin"
+                     /codon_start=1
+                     /product="hemoglobin"
+                     /protein_id="ABG47031.1"
+                     /db_xref="GI:109893891"
+                     /translation="MVHLTPEEKSAVTALWGKVNVDEVGGEALGRLLVVYPWTQRFFE
+                     SFGDLSTPDAVMGNPKVKAHGKKVLGAFSDGLAHLDNLKGTFATLSELHCDKLHVDPE
+                     NFR"
+     exon            307..529
+                     /gene="HBB"
+                     /number=2
+ORIGIN      
+        1 ggcatgaaag tcagggcaga gccatctatt gcttacattt gcttctgaca caactgtgtt
+       61 cactagcaac ctcaaacaga caccatggtg cacctgactc ctgaggagaa gtctgccgtt
+      121 actgccctgt ggggcaaggt gaacgtggat gaagttggtg gtgaggccct gggcaggttg
+      181 gtatcaaggt tacaagacag gtttaaggag accaatagaa actgggcatg tggagacaga
+      241 gaagactctt gggtttctga taggcactga ctctctctgc ctattggtct attttcccac
+      301 ccttaggctg ctggtggtct acccttggac ccagaggttc tttgagtcct ttggggatct
+      361 gtccactcct gatgctgtta tgggcaaccc taaggtgaag gctcatggca agaaagtgct
+      421 cggtgccttt agtgatggcc tggctcacct ggacaacctc aagggcacct ttgccacact
+      481 gagtgagctg cactgtgaca agctgcacgt ggatcctgag aacttcaggg tgagtctatg
+      541 ggacccttga tgttttcttt ccccttcttt tctatggtta agttcatgtc ataggaaggg
+      601 gagaagtaac agggtacagt ttagaatggg aaacagacga atgatt
+//
+
