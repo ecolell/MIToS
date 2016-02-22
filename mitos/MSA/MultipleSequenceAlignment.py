@@ -48,7 +48,7 @@ following order:
  (default to `0.5`: 50% of gaps)
 """
 def gapstrip(msa, reference, annotate=True, coverage_limit=0.75, gap_limit=0.5):
-    reference = filter(lambda r: r.name == reference, msa)
+    reference = filter(lambda r: r.description == reference, msa)
     if not reference:
         raise Exception("Unknonw reference {:} inside the MSA.".format(reference))
     else:
